@@ -13,6 +13,9 @@ const Element = styled.div`
 `;
 
 const Text = styled(RegularText)`
+    position: absolute;
+    left: 170px;
+
     text-decoration: underline;
     cursor: pointer;
     color: #787878;
