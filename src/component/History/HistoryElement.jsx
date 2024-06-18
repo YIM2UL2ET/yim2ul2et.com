@@ -13,7 +13,7 @@ const Element = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 52px;
+    height: 50px;
     width: 370px;
 `;
 

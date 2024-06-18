@@ -3,32 +3,28 @@ import styled from "styled-components";
 import MainTitle from "../Common/Texts/MainTitle";
 import SubTitle from "../Common/Texts/SubTitle";
 import HistoryElement from "./HistoryElement";
+import ElementBox from "../Common/Boxs/ElementBox";
 
 const HistoryObj = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 390px;
-    height: 680px;
-`
-
-const HistoryElBox = styled.div`
-    border-top: 1px solid #E8E8E8;
 `
 
 function HistoryBox() {
     return (
         <HistoryObj>
             <MainTitle>HISTORY</MainTitle>
-            <HistoryElBox>
+            <ElementBox>
                 <SubTitle>학력</SubTitle>
                 <HistoryElement
                     name="PKNU Computer Engeneering"
                     descript="국립부경대학교 컴퓨터인공지능공학부 23학번 (3학기)"
                     period="2023/03/02 ~ 현재"
                 />
-            </HistoryElBox>
-            <HistoryElBox>
+            </ElementBox>
+            <ElementBox>
                 <SubTitle>프로젝트</SubTitle>
                 <HistoryElement
                     name="BITs (Busan IT Society)"
@@ -40,8 +36,8 @@ function HistoryBox() {
                     descript="WAP 24-1학기 정규 프로젝트"
                     period="2024/03/15 ~ 2024/06/07"
                 />
-            </HistoryElBox>
-            <HistoryElBox>
+            </ElementBox>
+            <ElementBox>
                 <SubTitle>기타 활동</SubTitle>
                 <HistoryElement
                     name="Why Are Programming?"
@@ -58,7 +54,7 @@ function HistoryBox() {
                     descript="알고리즘 스터디 (7팀)"
                     period="2024/02/12 ~ 2024/05/11"
                 />
-            </HistoryElBox>
+            </ElementBox>
         </HistoryObj>
     )
 }
