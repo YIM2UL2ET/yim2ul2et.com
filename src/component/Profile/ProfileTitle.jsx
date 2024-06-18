@@ -27,7 +27,7 @@ const SubTitle = styled.div`
     }
 `
 
-function MainTitles() {
+function ProfileTitle() {
     return (
         <TitleBox>
             <Title>YIM2UL2ET</Title>
@@ -36,4 +36,4 @@ function MainTitles() {
     )
 }
 
-export default MainTitles;
+export default ProfileTitle;

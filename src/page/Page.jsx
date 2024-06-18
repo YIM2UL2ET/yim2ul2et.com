@@ -1,5 +1,5 @@
 import React from "react";
-import Main from "../features/Page/Main";
+import Profile from "../features/Page/Profile";
 import Hello from "../features/Page/Hello";
 import History from "../features/Page/History";
 import styled from "styled-components";
@@ -14,7 +14,7 @@ const PageBox = styled.div`
 function Yim2ul2et() {
     return (
         <PageBox>
-            <Main />
+            <Profile />
             <Hello />
             <History />
             <Skills />

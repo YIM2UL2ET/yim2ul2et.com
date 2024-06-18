@@ -6,9 +6,9 @@ import ObjectBox from "../Common/Boxs/ObjectBox";
 import SubTitle from "../Common/Texts/SubTitle";
 
 const Img = styled.img`
-margin-left: 10px;
-margin-right: 5px;
-margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
 `
 
 function SkillsBox() {

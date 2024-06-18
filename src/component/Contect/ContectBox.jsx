@@ -1,5 +1,4 @@
 import React from "react";
-import styled from "styled-components";
 import ContectElement from "./ContectElement";
 import MainTitle from "../Common/Texts/MainTitle";
 import SubTitle from "../Common/Texts/SubTitle";
