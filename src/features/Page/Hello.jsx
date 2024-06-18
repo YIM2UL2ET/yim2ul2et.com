@@ -1,11 +1,14 @@
 import React from "react";
-import styled from "styled-components";
+import HelloBox from "../../component/Hello/HelloBox";
+import ComponentBox from "../../component/Common/Boxs/ComponentBox";
+import PCText from "../../component/Common/Boxs/PCText";
 
 function Hello() {
     return (
-        <div>
-
-        </div>
+        <ComponentBox>
+            <HelloBox />
+            <PCText>제 이름은 임승호라고 합니다.</PCText>
+        </ComponentBox>
     )
 }
 

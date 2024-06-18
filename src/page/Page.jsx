@@ -1,22 +1,26 @@
 import React from "react";
-import HistoryElement from "../component/History/HistoryElement";
-import ContectBox from "../component/Contect/ContectBox";
-import HistoryBox from "../component/History/HistoryBox";
-import HelloBox from "../component/Hello/HelloBox";
-import SkillsBox from "../component/Skills/SkillsBox";
+import Main from "../features/Page/Main";
+import Hello from "../features/Page/Hello";
+import History from "../features/Page/History";
+import styled from "styled-components";
+import Skills from "../features/Page/Skills";
+import Contect from "../features/Page/Contect";
+
+const PageBox = styled.div`
+    display: flex;
+    flex-direction: column;
+`
 
 function Yim2ul2et() {
     return (
-        <SkillsBox />
+        <PageBox>
+            <Main />
+            <Hello />
+            <History />
+            <Skills />
+            <Contect />
+        </PageBox>
     );
 }
 
 export default Yim2ul2et;
-
-{/* <HistoryElement
-            name="BITs (Busan IT Society)"
-            descript="부산권 대학교 프로그래밍 연합동아리"
-            period="2024/02/03 ~ 현재"
-        /> */}
-
-{/* <ContectBox /> */ }

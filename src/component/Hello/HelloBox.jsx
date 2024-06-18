@@ -3,14 +3,20 @@ import MainTitle from "../Common/Texts/MainTitle";
 import ElementBox from "../Common/Boxs/ElementBox";
 import ObjectBox from "../Common/Boxs/ObjectBox";
 import RegularText from "../Common/Texts/RegularText";
+import styled from "styled-components";
+
+const TextBox = styled(RegularText)`
+    position: relative;
+    top: 30px;
+    height: 400px;
+`
 
 function HelloBox() {
-
     return (
         <ObjectBox>
             <MainTitle>HELLO</MainTitle>
             <ElementBox>
-                <RegularText>
+                <TextBox>
                     안녕하세요, 개발자를 목표로 하는 임승호입니다.<br />
                     <br />
                     개발을 시작한지 2년도 채 되지 않았지만,<br />
@@ -31,7 +37,7 @@ function HelloBox() {
                     빈틈없는 개발자가 되기 위해 노력하겠습니다.<br />
                     <br />
                     감사합니다.
-                </RegularText>
+                </TextBox>
             </ElementBox>
         </ObjectBox >
     )

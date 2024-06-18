@@ -4,6 +4,9 @@ import RegularText from "../Common/Texts/RegularText";
 import ElementTitle from "../Common/Texts/ElementTitle";
 
 const Element = styled.div`
+    display: flex;
+    justify-content: space-between;
+
     margin-left: 10px;
     box-sizing: border-box;
     display: flex;
@@ -13,8 +16,6 @@ const Element = styled.div`
 `;
 
 const Text = styled(RegularText)`
-    position: absolute;
-    left: 170px;
 
     text-decoration: underline;
     cursor: pointer;

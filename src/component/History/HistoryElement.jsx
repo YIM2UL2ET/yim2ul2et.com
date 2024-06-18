@@ -6,7 +6,6 @@ import MinimalText from "../Common/Texts/MinimalText";
 const Box = styled.div`
 `
 
-
 const Element = styled.div`
     margin-left: 10px;
     box-sizing: border-box;
