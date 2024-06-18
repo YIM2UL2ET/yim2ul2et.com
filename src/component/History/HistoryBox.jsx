@@ -4,17 +4,11 @@ import MainTitle from "../Common/Texts/MainTitle";
 import SubTitle from "../Common/Texts/SubTitle";
 import HistoryElement from "./HistoryElement";
 import ElementBox from "../Common/Boxs/ElementBox";
-
-const HistoryObj = styled.div`
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 390px;
-`
+import ObjectBox from "../Common/Boxs/ObjectBox";
 
 function HistoryBox() {
     return (
-        <HistoryObj>
+        <ObjectBox>
             <MainTitle>HISTORY</MainTitle>
             <ElementBox>
                 <SubTitle>학력</SubTitle>
@@ -27,12 +21,12 @@ function HistoryBox() {
             <ElementBox>
                 <SubTitle>프로젝트</SubTitle>
                 <HistoryElement
-                    name="BITs (Busan IT Society)"
+                    name="시페니시아의 진주"
                     descript="WAP 23-2학기 정규 프로젝트"
                     period="2023/09/08 ~ 2023/12/01"
                 />
                 <HistoryElement
-                    name="BITs (Busan IT Society)"
+                    name="WealthWise"
                     descript="WAP 24-1학기 정규 프로젝트"
                     period="2024/03/15 ~ 2024/06/07"
                 />
@@ -40,7 +34,7 @@ function HistoryBox() {
             <ElementBox>
                 <SubTitle>기타 활동</SubTitle>
                 <HistoryElement
-                    name="Why Are Programming?"
+                    name="WAP (Why Are Programming?)"
                     descript="PKNU 중앙동아리"
                     period="2023/09/01 ~ 현재"
                 />
@@ -55,7 +49,7 @@ function HistoryBox() {
                     period="2024/02/12 ~ 2024/05/11"
                 />
             </ElementBox>
-        </HistoryObj>
+        </ObjectBox>
     )
 }
 

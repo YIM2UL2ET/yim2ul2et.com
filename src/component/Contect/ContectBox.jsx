@@ -4,18 +4,11 @@ import ContectElement from "./ContectElement";
 import MainTitle from "../Common/Texts/MainTitle";
 import SubTitle from "../Common/Texts/SubTitle";
 import ElementBox from "../Common/Boxs/ElementBox";
-
-const ContectObj = styled.div`
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 390px;
-`
-
+import ObjectBox from "../Common/Boxs/ObjectBox";
 
 function ContectBox() {
     return (
-        <ContectObj>
+        <ObjectBox>
             <MainTitle>CONTECT</MainTitle>
             <ElementBox>
                 <SubTitle>PROGRAMMING</SubTitle>
@@ -84,7 +77,7 @@ function ContectBox() {
                     title="Email"
                     text="dlatmdgh1216@naver.com" />
             </ElementBox>
-        </ContectObj>
+        </ObjectBox>
     )
 }
 
