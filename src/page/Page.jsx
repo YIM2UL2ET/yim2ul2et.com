@@ -2,10 +2,12 @@ import React from "react";
 import HistoryElement from "../component/History/HistoryElement";
 import ContectBox from "../component/Contect/ContectBox";
 import HistoryBox from "../component/History/HistoryBox";
+import HelloBox from "../component/Hello/HelloBox";
+import SkillsBox from "../component/Skills/SkillsBox";
 
 function Yim2ul2et() {
     return (
-        <HistoryBox />
+        <SkillsBox />
     );
 }
 

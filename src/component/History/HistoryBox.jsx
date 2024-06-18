@@ -1,5 +1,4 @@
 import React from "react";
-import styled from "styled-components";
 import MainTitle from "../Common/Texts/MainTitle";
 import SubTitle from "../Common/Texts/SubTitle";
 import HistoryElement from "./HistoryElement";
