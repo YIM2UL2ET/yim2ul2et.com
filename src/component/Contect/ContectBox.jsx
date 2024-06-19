@@ -5,7 +5,7 @@ import SubTitle from "../Common/Texts/SubTitle";
 import ElementBox from "../Common/Boxs/ElementBox";
 import ObjectBox from "../Common/Boxs/ObjectBox";
 
-function ContectBox() {
+export default function ContectBox() {
     return (
         <ObjectBox>
             <MainTitle>CONTECT</MainTitle>
@@ -77,7 +77,5 @@ function ContectBox() {
                     text="dlatmdgh1216@naver.com" />
             </ElementBox>
         </ObjectBox>
-    )
+    );
 }
-
-export default ContectBox;

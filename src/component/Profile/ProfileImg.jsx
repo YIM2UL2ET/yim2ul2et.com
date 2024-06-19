@@ -13,12 +13,15 @@ const Picture = styled.img`
         width: 25vw;
         height: 25vw;
     }
+
+    transition: 0.5s ease-in-out;
+    &:hover {
+      transform:scale(1.05);
+    }
 `
 
-function ProfileImg() {
+export default function ProfileImg() {
     return (
         <Picture src={process.env.PUBLIC_URL + '/profile.png'} alt="dfs" />
-    )
+    );
 }
-
-export default ProfileImg;

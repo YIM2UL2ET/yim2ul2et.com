@@ -16,7 +16,7 @@ const Element = styled.div`
     width: 370px;
 `;
 
-function HistoryElement(props) {
+export default function HistoryElement(props) {
     const name = props.name;
     const descript = props.descript;
     const period = props.period;
@@ -31,8 +31,5 @@ function HistoryElement(props) {
                 <MinimalText>{period}</MinimalText>
             </Element>
         </div>
-
-    )
+    );
 }
-
-export default HistoryElement;

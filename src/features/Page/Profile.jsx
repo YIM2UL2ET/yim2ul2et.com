@@ -23,7 +23,7 @@ const Box = styled.div`
     }
 `
 
-function Profile() {
+export default function Profile() {
     return (
         <ComponentBox>
             <Box>
@@ -31,7 +31,5 @@ function Profile() {
                 <ProfileImg />
             </Box>
         </ComponentBox>
-    )
+    );
 }
-
-export default Profile;

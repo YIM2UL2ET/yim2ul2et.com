@@ -5,7 +5,7 @@ import HistoryElement from "./HistoryElement";
 import ElementBox from "../Common/Boxs/ElementBox";
 import ObjectBox from "../Common/Boxs/ObjectBox";
 
-function HistoryBox() {
+export default function HistoryBox() {
     return (
         <ObjectBox>
             <MainTitle>HISTORY</MainTitle>
@@ -49,7 +49,5 @@ function HistoryBox() {
                 />
             </ElementBox>
         </ObjectBox>
-    )
+    );
 }
-
-export default HistoryBox;

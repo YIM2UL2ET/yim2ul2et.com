@@ -10,7 +10,7 @@ const TextBox = styled(RegularText)`
     height: 400px;
 `
 
-function HelloIntroduce() {
+export default function HelloIntroduce() {
     return (
         <ElementBox>
             <TextBox>
@@ -36,7 +36,5 @@ function HelloIntroduce() {
                 감사합니다.
             </TextBox>
         </ElementBox>
-    )
+    );
 }
-
-export default HelloIntroduce;

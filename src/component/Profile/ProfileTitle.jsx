@@ -27,13 +27,11 @@ const SubTitle = styled.div`
     }
 `
 
-function ProfileTitle() {
+export default function ProfileTitle() {
     return (
         <TitleBox>
             <Title>YIM2UL2ET</Title>
             <SubTitle>Study Computer Science</SubTitle>
         </TitleBox>
-    )
+    );
 }
-
-export default ProfileTitle;

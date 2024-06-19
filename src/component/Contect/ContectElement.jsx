@@ -15,7 +15,7 @@ const Element = styled.div`
     width: 370px;
 `;
 
-function ContectElement(prop) {
+export default function ContectElement(prop) {
     const type = prop.type;
     const value = prop.value;
     const title = prop.title;
@@ -26,7 +26,5 @@ function ContectElement(prop) {
             <ElementTitle>{title}</ElementTitle>
             <ContectValue value={value} type={type} text={text} />
         </Element>
-    )
+    );
 }
-
-export default ContectElement;

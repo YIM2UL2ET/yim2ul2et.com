@@ -11,7 +11,7 @@ const Img = styled.img`
     margin-bottom: 10px;
 `
 
-function SkillsBox() {
+export default function SkillsBox() {
     return (
         <ObjectBox>
             <MainTitle>SKILLS</MainTitle>
@@ -51,7 +51,5 @@ function SkillsBox() {
                 </div>
             </ElementBox>
         </ObjectBox >
-    )
+    );
 }
-
-export default SkillsBox;

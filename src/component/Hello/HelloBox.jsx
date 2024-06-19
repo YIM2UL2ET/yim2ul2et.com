@@ -3,13 +3,11 @@ import MainTitle from "../Common/Texts/MainTitle";
 import ObjectBox from "../Common/Boxs/ObjectBox";
 import HelloIntroduce from "./HelloIntroduce";
 
-function HelloBox() {
+export default function HelloBox() {
     return (
         <ObjectBox>
             <MainTitle>HELLO</MainTitle>
             <HelloIntroduce />
         </ObjectBox >
-    )
+    );
 }
-
-export default HelloBox;

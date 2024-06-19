@@ -3,7 +3,6 @@ import styled from "styled-components";
 import RegularText from "../Common/Texts/RegularText";
 
 const Text = styled(RegularText)`
-
     text-decoration: underline;
     cursor: pointer;
     color: #787878;
@@ -27,7 +26,7 @@ const Img = styled.img`
     width: 17px;
 `
 
-function ContectValue(prop) {
+export default function ContectValue(prop) {
     const type = prop.type;
     const value = prop.value;
     const text = prop.text;
@@ -50,7 +49,5 @@ function ContectValue(prop) {
             {text}
             <Img src={process.env.PUBLIC_URL + `/images/${type}.png`} alt="" />
         </Text>
-    )
+    );
 }
-
-export default ContectValue;
