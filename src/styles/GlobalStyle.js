@@ -11,12 +11,12 @@ const GlobalStyle = createGlobalStyle`
     }
 
     ::-webkit-scrollbar-thumb {
-        background: #556270; /* 스크롤바 색상 */
-        border-radius: 10px; /* 스크롤바 둥근 테두리 */
+        background: #556270;
+        border-radius: 10px;
     }
 
     ::-webkit-scrollbar-track {
-        background: #e8e8e8;  /*스크롤바 뒷 배경 색상*/
+        background: #e8e8e8;
     }
 `;
 

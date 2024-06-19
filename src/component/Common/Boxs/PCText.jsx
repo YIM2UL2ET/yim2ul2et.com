@@ -9,7 +9,7 @@ const PCText = styled.div`
         font-family: Pretendard;
         text-align: center;
         font-weight: 800;
-        font-size: 3.8vw;   
+        font-size: 3.8vw;
     }
 `
 
