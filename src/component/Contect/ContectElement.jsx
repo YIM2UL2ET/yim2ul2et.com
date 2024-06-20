@@ -12,7 +12,7 @@ const Element = styled.div`
     display: flex;
     flex-direction: row;
     height: 32px;
-    width: 370px;
+    width: 340px;
 `;
 
 export default function ContectElement(prop) {

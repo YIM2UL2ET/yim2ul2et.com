@@ -13,7 +13,7 @@ const Element = styled.div`
     flex-direction: row;
     justify-content: space-between;
     height: 50px;
-    width: 370px;
+    width: 340px;
 `;
 
 export default function HistoryElement(props) {

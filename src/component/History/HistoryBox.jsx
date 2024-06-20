@@ -33,7 +33,7 @@ export default function HistoryBox() {
             <ElementBox>
                 <SubTitle>기타 활동</SubTitle>
                 <HistoryElement
-                    name="WAP (Why Are Programming?)"
+                    name="WAP"
                     descript="PKNU 중앙동아리"
                     period="2023/09/01 ~ 현재"
                 />

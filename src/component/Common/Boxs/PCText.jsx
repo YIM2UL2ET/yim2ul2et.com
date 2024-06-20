@@ -5,7 +5,7 @@ const PCText = styled.div`
         display: none;
     }
     @media screen and (min-width:769px) {
-        width: calc(96% - 370px);
+        width: calc(96% - 350px);
         font-family: Pretendard;
         text-align: center;
         font-weight: 800;

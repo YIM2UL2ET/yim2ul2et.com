@@ -4,13 +4,6 @@ const ComponentBox = styled.div`
     display: flex;
     align-items: center;
     width: 100%;
-    
-    @media screen and (max-height:630px) {
-        height : 630px;
-    }
-    @media screen and (min-height:631px) {
-        height: 100vh;
-    }
 
     @media screen and (max-width:767px) {
         justify-content: center;
