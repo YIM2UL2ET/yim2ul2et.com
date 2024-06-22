@@ -1,0 +1,91 @@
+{
+    "title": "CONTECT",
+    "members": [
+        {
+            "subTitle": "PROGRAMMING",
+            "data": [
+                {
+                    "type": "link",
+                    "value": "https://solved.ac/profile/yim2ul2et",
+                    "title": "Solved.ac",
+                    "text": "yim2ul2et"
+                },
+                {
+                    "type": "link",
+                    "value": "https://www.acmicpc.net/user/yim2ul2et",
+                    "title": "BAEKJOON",
+                    "text": "yim2ul2et"
+                },
+                {
+                    "type": "link",
+                    "value": "https://github.com/YIM2UL2ET",
+                    "title": "Github",
+                    "text": "YIM2UL2ET"
+                }
+            ]
+        },
+        {
+            "subTitle": "SOCIAL",
+            "data": [
+                {
+                    "type": "link",
+                    "value": "https://twitter.com/YIM2UL2ET",
+                    "title": "X(Twitter)",
+                    "text": "@YIM2UL2ET"
+                },
+                {
+                    "type": "link",
+                    "value": "https://www.instagram.com/ysh041216/",
+                    "title": "Instagram",
+                    "text": "ysh041216"
+                },
+                {
+                    "type": "link",
+                    "value": "https://www.discord.com/users/431805857689239574",
+                    "title": "Discord",
+                    "text": "yim2ul2et"
+                }
+            ]
+        },
+        {
+            "subTitle": "GAME",
+            "data": [
+                {
+                    "type": "link",
+                    "value": "https://steamcommunity.com/profiles/76561199013209022",
+                    "title": "Steam",
+                    "text": "YIM2UL2ET"
+                },
+                {
+                    "type": "none",
+                    "value": "",
+                    "title": "BEMANI Games",
+                    "text": "yimullet"
+                }
+            ]
+        },
+        {
+            "subTitle": "OTHER",
+            "data": [
+                {
+                    "type": "link",
+                    "value": "https://yim2ul2et.github.io/",
+                    "title": "BLOG",
+                    "text": "yim2ul2et.github.io"
+                },
+                {
+                    "type": "link",
+                    "value": "https://www.youtube.com/@YIM2UL2ET",
+                    "title": "Youtube",
+                    "text": "YIM2UL2ET"
+                },
+                {
+                    "type": "copy",
+                    "value": "dlatmdgh1216@naver.com",
+                    "title": "Email",
+                    "text": "dlatmdgh1216@naver.com"
+                }
+            ]
+        }
+    ]
+}

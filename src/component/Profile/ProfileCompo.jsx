@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import ProfileTitle from "../../component/Profile/ProfileTitle";
-import ProfileImg from "../../component/Profile/ProfileImg";
+import ProfileTitle from "./ProfileTitle";
+import ProfileImg from "./ProfileImg";
 
 const Box = styled.div`
     width: 100%;
@@ -22,7 +22,7 @@ const Box = styled.div`
     }
 `
 
-export default function ProfileBox() {
+export default function ProfileCompo() {
     return (
         <Box>
             <ProfileTitle />

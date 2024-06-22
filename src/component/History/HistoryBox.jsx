@@ -1,26 +1,26 @@
 import React from "react";
-import MainTitle from "../Common/Texts/MainTitle";
-import ObjectBox from "../Common/Boxs/ObjectBox";
-import jsonData from '../../history.json';
-import HistoryElementBox from "./HistoryElementBox";
+import ElementBox from "../Common/Boxs/ElementBox";
+import HistoryElement from "./HistoryElement";
+import SubTitle from "../Common/Texts/SubTitle";
 
-export default function HistoryBox() {
-    const historyData = jsonData;
-    const boxData = historyData.members;
+export default function HistoryBox(props) {
+    const subTitle = props.subTitle;
+    const data = props.data;
 
     function loadData() {
-        return boxData.map((entity) => (
-            <HistoryElementBox
-                subTitle={entity.subTitle}
-                data={entity.data}
+        return data.map((entity) => (
+            <HistoryElement
+                name={entity.name}
+                descript={entity.descript}
+                period={entity.period}
             />
         ));
     }
 
     return (
-        <ObjectBox>
-            <MainTitle>{historyData.title}</MainTitle>
+        <ElementBox>
+            <SubTitle>{subTitle}</SubTitle>
             {loadData()}
-        </ObjectBox>
+        </ElementBox>
     );
 }
