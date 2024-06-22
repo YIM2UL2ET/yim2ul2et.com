@@ -11,7 +11,7 @@ const Img = styled.img`
     margin-bottom: 10px;
 `
 
-export default function SkillsBox() {
+export default function SkillsCompo() {
     return (
         <ObjectBox>
             <MainTitle>SKILLS</MainTitle>
